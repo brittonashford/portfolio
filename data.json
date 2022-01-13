@@ -22,7 +22,7 @@
       "id": 2,
       "project_name": "Interactive Form",
       "description": "An interactive HTML form with real-time validation",
-      "technologies": "Vanilla JavaScript, CSS, HTML",
+      "technologies": [ "Vanilla JavaScript", "CSS", "HTML" ],
       "live_link": "",
       "github_link": "https://github.com/brittonashford/InteractiveForm",
       "image_urls": ""
