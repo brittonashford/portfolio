@@ -1,0 +1,49 @@
+{
+  "projects": [
+    {
+      "id": 0,
+      "project_name": "Random Quote Generator",
+      "description": "A simple app that generates random quotes",
+      "technologies": [ "Vanilla JavaScript", "CSS", "HTML" ],
+      "live_link": "",
+      "github_link": "https://github.com/brittonashford/RandomQuoteGenerator",
+      "image_urls": ""
+    },
+    {
+      "id": 1,
+      "project_name": "Data Filtering and Pagination",
+      "description": "A paginated list of fake students that can be filtered in real-time",
+      "technologies": [ "Vanilla JavaScript", "CSS", "HTML" ],
+      "live_link": "",
+      "github_link": "https://github.com/brittonashford/PhraseHunter",
+      "image_urls": ""
+    },
+    {
+      "id": 2,
+      "project_name": "Interactive Form",
+      "description": "An interactive HTML form with real-time validation",
+      "technologies": "Vanilla JavaScript, CSS, HTML",
+      "live_link": "",
+      "github_link": "https://github.com/brittonashford/InteractiveForm",
+      "image_urls": ""
+    },
+    {
+      "id": 3,
+      "project_name": "Phrase Hunter",
+      "description": "An interactive guessing game",
+      "technologies": [ "Vanilla JavaScript", "CSS", "HTML" ],
+      "live_link": "",
+      "github_link": "https://github.com/brittonashford/PhraseHunter",
+      "image_urls": ""
+    },
+    {
+      "id": 4,
+      "project_name": "Public API Request",
+      "description": "A fictitious employee directory that uses data from a public API",
+      "technologies": [ "Vanilla JavaScript", "Fetch API", "CSS", "HTML" ],
+      "live_link": "",
+      "github_link": "https://github.com/brittonashford/public-api-requests",
+      "image_urls": ""
+    }
+  ]
+}

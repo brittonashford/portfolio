@@ -1,0 +1,31 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Express/Node app to share projects from my current portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brittonashford/portfolio.git"
+  },
+  "keywords": [
+    "express",
+    "node",
+    "pug",
+    "portfolio"
+  ],
+  "author": "bret kitchell",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brittonashford/portfolio/issues"
+  },
+  "homepage": "https://github.com/brittonashford/portfolio#readme",
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "cookie-parser": "^1.4.6",
+    "express": "^4.17.2",
+    "pug": "^3.0.2"
+  }
+}
