@@ -1,16 +1,19 @@
 const express = require('express');
-const data = require('./data.json')
-const path = '';
 const app = express();
+/*const path = '';*/
+const data = require('./data.json')
 
-
-app.set('view engine', 'pug')
+app.set('view engine', 'pug');
 
 app.use('/static', express.static('public'));
 
 app.get('/', (req, res) => {
-    app.render('index', { projects: data.projects });
+    app.render('index');
 });
+
+//app.get('/', (req, res) => {
+//    app.render('index', { projects: data.projects });
+//});
 
 
 app.get('/about', (req, res) => {
