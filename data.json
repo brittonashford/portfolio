@@ -7,7 +7,8 @@
       "technologies": [ "Vanilla JavaScript", "CSS", "HTML" ],
       "live_link": "https://brittonashford.github.io/RandomQuoteGenerator/",
       "github_link": "https://github.com/brittonashford/RandomQuoteGenerator",
-      "image_urls": ""
+      "image_urls": [ "../public/images/Quotes550.JPG", 
+                      "../public/images/Quotes1200.JPG" ]
     },
     {
       "id": 1,
@@ -16,7 +17,8 @@
       "technologies": [ "Vanilla JavaScript", "CSS", "HTML" ],
       "live_link": "https://brittonashford.github.io/SearchAndDataPagination/",
       "github_link": "https://github.com/brittonashford/SearchAndDataPagination",
-      "image_urls": ""
+      "image_urls": [ "../public/images/Students550.JPG", 
+                      "../public/images/Students1200.JPG" ]
     },
     {
       "id": 2,
@@ -25,7 +27,11 @@
       "technologies": [ "Vanilla JavaScript", "CSS", "HTML" ],
       "live_link": "https://brittonashford.github.io/InteractiveForm/",
       "github_link": "https://github.com/brittonashford/InteractiveForm",
-      "image_urls": ""
+      "image_urls": [
+        "../public/images/Form550.JPG",       
+        "../public/images/Form1200_1.JPG",
+        "../public/images/Form1200_2.JPG"
+      ]
     },
     {
       "id": 3,
@@ -34,7 +40,12 @@
       "technologies": [ "Vanilla JavaScript", "CSS", "HTML" ],
       "live_link": "https://brittonashford.github.io/PhraseHunter/",
       "github_link": "https://github.com/brittonashford/PhraseHunter",
-      "image_urls": ""
+      "image_urls": [
+        "../public/images/Phrase550.JPG",
+        "../public/images/Phrase1200_1.JPG",
+        "../public/images/Phrase1200_2.JPG",
+        "../public/images/Phrase1200_3.JPG"
+      ]
     },
     {
       "id": 4,
@@ -43,7 +54,12 @@
       "technologies": [ "Vanilla JavaScript", "Fetch API", "CSS", "HTML" ],
       "live_link": "https://brittonashford.github.io/public-api-requests/",
       "github_link": "https://github.com/brittonashford/public-api-requests",
-      "image_urls": ""
+      "image_urls": [
+        "../public/images/EmployeeDirectory550.JPG",
+        "../public/images/EmployeeDirectory1200_1.JPG",
+        "../public/images/EmployeeDirectory1200_2.JPG",
+        "../public/images/EmployeeDirectory1200_3.JPG"
+      ]
     }
   ]
 }
