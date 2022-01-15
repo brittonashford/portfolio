@@ -8,21 +8,25 @@ app.set('view engine', 'pug');
 app.use('/static', express.static('public'));
 
 app.get('/', (req, res) => {
-    app.render('index');
+    res.render('index');
 });
-
-//app.get('/', (req, res) => {
-//    app.render('index', { projects: data.projects });
-//});
 
 
 app.get('/about', (req, res) => {
-    app.render('about');
+    res.render('about');
 })
 
 
-app.get('/projects/:id', (req, res) => {
-    app.render('project')
+app.get('/projects/:id', (req, res, next) => {
+    const id = req.params.id;
+
+    if(data.prjects[id]){
+        res.render('project', { project: data.projects[id] })
+    } else {
+        const err = new Error('Project does not exist.');
+        err.status = 404;
+        next(err);
+    }  
 })
 
 
