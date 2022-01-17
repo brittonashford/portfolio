@@ -14,8 +14,6 @@ app.get('/', (req, res) => {
 
 //path for about page
 app.get('/about', (req, res) => {
-    res.status=500;
-    res.sendStatus(500);
     res.render('about');
 })
 
