@@ -18,10 +18,11 @@ app.get('/about', (req, res) => {
 
 
 app.get('/projects/:id', (req, res, next) => {
-    const id = req.params.id;
+    const { id } = req.params;
+    const proj = data.projects[id];
 
-    if(data.prjects[id]){
-        res.render('project', { project: data.projects[id] })
+    if(data.projects[id]){
+        res.render('project', { proj })
     } else {
         const err = new Error('Project does not exist.');
         err.status = 404;

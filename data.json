@@ -7,8 +7,12 @@
       "technologies": [ "Vanilla JavaScript", "CSS", "HTML" ],
       "live_link": "https://brittonashford.github.io/RandomQuoteGenerator/",
       "github_link": "https://github.com/brittonashford/RandomQuoteGenerator",
-      "image_urls": [ "./static/images/Quotes550.JPG", 
-                      "./static/images/Quotes1200.JPG" ]
+      "image_urls": [ 
+        "./static/images/Quotes550.JPG", 
+        "../static/images/Quotes1200_1.JPG",
+        "../static/images/Quotes1200_2.JPG",
+        "../static/images/Quotes1200_3.JPG"    
+      ]
     },
     {
       "id": "1",
@@ -17,8 +21,12 @@
       "technologies": [ "Vanilla JavaScript", "CSS", "HTML" ],
       "live_link": "https://brittonashford.github.io/SearchAndDataPagination/",
       "github_link": "https://github.com/brittonashford/SearchAndDataPagination",
-      "image_urls": [ "./static/images/Students550.JPG", 
-                      "./static/images/Students1200.JPG" ]
+      "image_urls": [ 
+        "./static/images/Students550.JPG", 
+        "../static/images/Students1200_1.JPG",
+        "../static/images/Students1200_2.JPG",
+        "../static/images/Students1200_3.JPG"  
+      ]
     },
     {
       "id": "2",
@@ -28,9 +36,10 @@
       "live_link": "https://brittonashford.github.io/InteractiveForm/",
       "github_link": "https://github.com/brittonashford/InteractiveForm",
       "image_urls": [
-        "./static/images/Form550.JPG",       
-        "./static/images/Form1200_1.JPG",
-        "./static/images/Form1200_2.JPG"
+        "../static/images/Form550.JPG",       
+        "../static/images/Form1200_1.JPG",
+        "../static/images/Form1200_2.JPG",
+        "../static/images/Form1200_2.JPG"
       ]
     },
     {
@@ -42,9 +51,9 @@
       "github_link": "https://github.com/brittonashford/PhraseHunter",
       "image_urls": [
         "./static/images/PhraseHunter550.JPG",
-        "./static/images/PhraseHunter1200_1.JPG",
-        "./static/images/PhraseHunter1200_2.JPG",
-        "./static/images/PhraseHunter1200_3.JPG"
+        "../static/images/PhraseHunter1200_1.JPG",
+        "../static/images/PhraseHunter1200_2.JPG",
+        "../static/images/PhraseHunter1200_3.JPG"
       ]
     },
     {
@@ -56,9 +65,9 @@
       "github_link": "https://github.com/brittonashford/public-api-requests",
       "image_urls": [
         "./static/images/EmployeeDirectory550.JPG",
-        "./static/images/EmployeeDirectory1200_1.JPG",
-        "./static/images/EmployeeDirectory1200_2.JPG",
-        "./static/images/EmployeeDirectory1200_3.JPG"
+        "../static/images/EmpDirectory1200_1.JPG",
+        "../static/images/EmpDirectory1200_2.JPG",
+        "../static/images/EmpDirectory1200_3.JPG"
       ]
     }
   ]
