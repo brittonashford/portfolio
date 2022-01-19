@@ -21,24 +21,40 @@ app.get('/about', (req, res) => {
 //retrieves project or a 404 error
 app.get('/projects/:id', (req, res, next) => {
     const { id } = req.params;
-    const proj = data.projects[id];
-
+    
     if(data.projects[id]){
-        res.render('project', { proj })
+        res.render('project', { proj : data.projects[id] })
     } else {  //if user types a number in the url that doesn't correspond to a project
-        const err = new Error('Project does not exist (404).');
-        err.status = 404;
-        next(err);
+        const err = new Error("Project does not exist.");
+		err.status = 404;
+        err.message = `Error status ${err.status}: The requested project does not exist.`	
+		next(err);
     }  
 })
 
-//server error/default error handler
+//catch all other 404 errors
+app.use((req, res, next) => {
+	const err = new Error("Page does not exist.");
+    err.status = 404;
+    err.message = `Error status ${err.status}: The requested page does not exist.`	
+	next(err);
+});
+
+//catch all other errors
 app.use((err, req, res, next) => {
+    if(err.status !== 404){
         err.status = 500;
-        err.message = 'An error occurred while processing your request (500).'
-        console.log(err.message, err.status);
-        next(err);
-})
+	    err.message = `Error status ${err.status}: Server error.`;
+    }
+	
+	res.locals.error = err;
+	res.status(err.status);
+	console.error(err.message);
+
+    //render error view
+    res.render('error', {err});
+
+});
 
 
 app.listen(3000, () => {
